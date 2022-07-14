@@ -1,4 +1,4 @@
-#RMOVIES
+#RMOVIES#
 
 rMovies is a simple movie collection. It displays the movie cover, title and it's genre.
 
