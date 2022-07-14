@@ -2,11 +2,11 @@ import React from 'react'
 import ReactDom from 'react-dom'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
-import Home from "./pages/Home";
-import Blogs from "./pages/Blogs";
-import Contact from "./pages/Contact";
-import NoPage from "./pages/NoPage";
+import Layout from "./pages/layout";
+import Home from "./pages/home";
+import Blogs from "./pages/blogs";
+import Contact from "./pages/contact";
+import NoPage from "./pages/nopage";
 
 import './index.css'
 
@@ -79,16 +79,18 @@ function MovieList(){
 
     <React.Fragment>
 
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="blogs" element={<Blogs />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="*" element={<NoPage />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <div className='navbar'>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="blogs" element={<Blogs />} />
+              <Route path="contact" element={<Contact />} />
+              <Route path="*" element={<NoPage />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </div>
 
     <section className='movielist'>
       {movies.map((movie, index)=>{
