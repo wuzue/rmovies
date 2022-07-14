@@ -48,3 +48,26 @@ body {
 .movie img {
   border-radius: 1rem;
 }
+
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252a;
+  
+}
+.navbar a{
+font-family: "Montserrat",
+sans-serif;
+font-weight: 500;
+color: #edf0f1;
+text-decoration: none;
+list-style: none;
+display: flex;
+}
+
+.navbar img {
+  width: 5%;
+  cursor: pointer;
+} */
