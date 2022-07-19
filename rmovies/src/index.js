@@ -33,7 +33,7 @@ const movies = [
   {
     id:4,
     img:"https://i0.wp.com/www.themoviedb.org/t/p/w600_and_h900_bestv2/elrXo5uMCI8cI8idpblQPT3QwDS.jpg?resize=250%2C350&ssl=1",
-    title:"Um Reecontro Inesperado",
+    title:"Um Reencontro Inesperado",
     genre:"Comédia"
   },
   {
